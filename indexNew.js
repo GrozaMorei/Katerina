@@ -423,7 +423,7 @@ function start() {
 	}
 }
 
-save(59);
+save(0);
 // localStorage.removeItem('time');
 // localStorage.removeItem('flag');
 start();
