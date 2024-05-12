@@ -226,7 +226,7 @@ function monument() {
 	if (index == 21) {
 		offButton();
 		if (!flagCheck()) {
-			setTimer(1);
+			setTimer(2);
 			flag(true);
 		}
 		if (timerCheck()) {
@@ -238,7 +238,7 @@ function monument() {
 	if (index == 23) {
 		offButton();
 		if (flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(false);
 		}
 		if (timerCheck()) {
@@ -250,7 +250,7 @@ function monument() {
 	if (index == 24) {
 		offButton();
 		if (!flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(true);
 		}
 		if (timerCheck()) {
@@ -262,7 +262,7 @@ function monument() {
 	if (index == 34) {
 		offButton();
 		if (flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(false);
 		}
 		if (timerCheck()) {
@@ -282,7 +282,7 @@ function ladder() {
 	if (index == 37) {
 		offButton();
 		if (!flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(true);
 		}
 		if (timerCheck()) {
@@ -294,7 +294,7 @@ function ladder() {
 	if (index == 41) {
 		offButton();
 		if (flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(false);
 		}
 		if (timerCheck()) {
@@ -306,7 +306,7 @@ function ladder() {
 	if (index == 44) {
 		offButton();
 		if (!flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(true);
 		}
 		if (timerCheck()) {
@@ -326,7 +326,7 @@ function area() {
 	if (index == 46) {
 		offButton();
 		if (flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(false);
 		}
 		if (timerCheck()) {
@@ -338,7 +338,7 @@ function area() {
 	if (index == 48) {
 		offButton();
 		if (!flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(true);
 		}
 		if (timerCheck()) {
@@ -350,7 +350,7 @@ function area() {
 	if (index == 51) {
 		offButton();
 		if (flagCheck()) {
-			setTimer(1);
+			setTimer(3);
 			flag(false);
 		}
 		if (timerCheck()) {
